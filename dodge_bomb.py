@@ -37,7 +37,6 @@ def main():
 
         tmr += 1
         screen.blit(bg_img, [0, 0])
-        screen.blit(kk_img, [900, 400])
 
         key_lst = pg.key.get_pressed()
         for k, mv in delta.items():
