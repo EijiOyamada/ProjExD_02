@@ -16,7 +16,7 @@ delta = {  # 押下キーと移動量の辞書
 
 def init_kk_imgs() -> dict[tuple[int, int], pg.Surface]:
     """
-    移動量の合計値タプルをキー，対応する向きの画像Surfaceを値とした辞書を返す
+    移動量の合計値タプルをキー，対応する向きの画像Surfaceを値とした辞書を返します
     """
     kk_img0 = pg.transform.rotozoom(pg.image.load("ex02/fig/3.png"), 0, 2.0)
     kk_img = pg.transform.flip(kk_img0, True, False)  # デフォルトのこうかとん
